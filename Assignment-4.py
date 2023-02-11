@@ -36,3 +36,23 @@ if(sum == int(tmp)):
     print("Its Armstrong Number")
 else:
     print("Its Not Armstrong Number")
+
+    
+Solution
+1.Enter a number to Find the Factorial of a Number: 4
+
+Factorial of 4 is 24
+2.Enter a number for table: 4
+4 x 1 = 4
+4 x 2 = 8
+4 x 3 = 12
+4 x 4 = 16
+4 x 5 = 20
+4 x 6 = 24
+4 x 7 = 28
+4 x 8 = 32
+4 x 9 = 36
+4 x 10 = 40
+3.Fibonacci Series: 0 1 1 2 3
+4.Enter the number to Check Armstrong Number223
+Its Not Armstrong Number
