@@ -20,3 +20,16 @@ if(year % 4 == 0):
     print(year,"its Leap Year")
 else:
    print(year,"its Not Leap Year")
+
+   
+   
+   
+   
+   Solution
+Enter the Number to Check if a Number is Positive, Negative or Zero: 0
+0 is Zero
+Enter the Number to Check if a Number is Odd or Even: 90
+90 is Even
+Enter a number to Check Leap Year: 1957
+1957 its Not Leap Year
+
