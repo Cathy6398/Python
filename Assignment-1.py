@@ -27,3 +27,16 @@ print("After swap A:",a,"B:",b);
 ### 5. Write a Python program to generate a random number?
 import random
 print(random.randint(1,1000));
+
+
+
+
+Solution:
+  
+Hello
+Addition :  12
+Division :  2.0
+Area of Triangle :  6.0
+Before swap A: 8 B: 9
+After swap A: 9 B: 8
+Randon Number: 562
