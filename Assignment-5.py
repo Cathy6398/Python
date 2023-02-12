@@ -58,3 +58,31 @@ elif(ch == '/'):
     out=m/n
 
 print("Result:",out)
+
+
+Solution:
+1.Enter the 1st digit : 54
+Enter the 2nd digit : 24
+L.C.M is 216
+
+2.Enter the 1st digit : 54
+Enter the 2nd digit : 24
+H.C.F is 6
+
+3.Enter any decimal number: 5
+ Binary Number:  0b101
+ Octal Number:  0o5
+ Hexadecimal Number:  0x5
+4.Enter the Character : E
+ASCII Value of  E  is : 69
+5.Enter any 1st number: 32
+Enter any 1st number: 12
+
+For addition:       +
+For subtraction:    -
+For multiplicaton:  *
+For division:       /
+For Exit:            X
+Enter the Operation*
+Result: 384
+    
