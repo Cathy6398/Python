@@ -1,7 +1,4 @@
 ### 1. Write a Python Program to Find the Factorial of a Number?
-import math
-
-
 num = int(input("Enter a number to Find the Factorial of a Number: "))
 fact = 1
 for i in range(num, 0, -1):
@@ -24,35 +21,71 @@ for i in range(2, l ):
     print(n3, end=" ")
 
 ### 4. Write a Python Program to Check Armstrong Number?
-n=int(input("\nEnter the number to Check Armstrong Number"))
-tmp=n
-s=0
-while(n>0):
-    r = n % 10
-    s=s+(r*r*r)
-    n = n / 10
+num = int(input("\nEnter a number to Check Armstrong Number: "))
+sum = 0
+temp = num
+while temp > 0:
+   digit = temp % 10
+   sum += digit ** 3
+   temp //= 10
 
-if(sum == int(tmp)):
-    print("Its Armstrong Number")
+if num == sum:
+   print(num,"is an Armstrong number")
 else:
-    print("Its Not Armstrong Number")
+   print(num,"is not an Armstrong number")
 
-    
-Solution
-1.Enter a number to Find the Factorial of a Number: 4
+### 5. Write a Python Program to Find Armstrong Number in an Interval?
+low = int(input("Enter the lower value of range: "))
+high = int(input("Enter the higher value of range: "))
 
-Factorial of 4 is 24
-2.Enter a number for table: 4
-4 x 1 = 4
-4 x 2 = 8
-4 x 3 = 12
-4 x 4 = 16
-4 x 5 = 20
-4 x 6 = 24
-4 x 7 = 28
-4 x 8 = 32
-4 x 9 = 36
-4 x 10 = 40
+for num in range(low, high + 1):
+   sum = 0
+   temp = num
+   while temp > 0:
+       digit = temp % 10
+       sum += digit ** 3
+       temp //= 10
+
+   if num == sum:
+       print(num)
+
+### 6. Write a Python Program to Find the Sum of Natural Numbers?
+h=int(input("Enter the number to Find the Sum of Natural Numbers"))
+tmp=0
+for i in range(1,h+1):
+    tmp=tmp+i
+print(tmp)
+
+
+Solution:
+1.Enter a number to Find the Factorial of a Number: 3
+
+Factorial of 3 is 6
+
+2.Enter a number for table: 3
+3 x 1 = 3
+3 x 2 = 6
+3 x 3 = 9
+3 x 4 = 12
+3 x 5 = 15
+3 x 6 = 18
+3 x 7 = 21
+3 x 8 = 24
+3 x 9 = 27
+3 x 10 = 30
+
 3.Fibonacci Series: 0 1 1 2 3
-4.Enter the number to Check Armstrong Number223
-Its Not Armstrong Number
+   
+4.Enter a number to Check Armstrong Number: 371
+371 is an Armstrong number
+
+5.Enter the lower value of range: 1
+Enter the higher value of range: 1000
+1
+153
+370
+371
+407
+
+6.Enter the number to Find the Sum of Natural Numbers5
+15
