@@ -42,3 +42,20 @@ def cub(n):
 
 s=int(input("\nEnter the number to  cube sum of first n natural numbers"))
 print("Result is ",cub(s))
+
+
+
+Solution:
+    
+1.0 1 1 2 3 5 8 13 21 34 
+2.Enter the number : 6
+The factorial of 6 is 720
+3.Enter the weight in Kg : 55
+Enter the height in meters : 160
+The BMI is  0.0021484375
+
+4.Enter the number to calculate the natural logarithm: 14
+2.6390573296152584
+
+5.Enter the number to  cube sum of first n natural numbers4
+Result is  1000
