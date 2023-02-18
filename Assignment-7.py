@@ -32,3 +32,12 @@ def isMonotonic(A):
 # main
 A = [8,1,2,3,4,7,8]
 print("5.",isMonotonic(A))
+
+
+Solution
+
+1.Sum of array:  197
+2. 1000
+3.Rotated array: [111, 369, 123, -412, 3, 2, 1]
+4.Output array is [5, 17, 10, 13]
+5. False
