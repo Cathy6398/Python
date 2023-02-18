@@ -32,7 +32,28 @@ result = [[0,0,0],
          [0,0,0],
          [0,0,0]]
 
-
+Solution:
+   
+1.Addition
+[17, 15, 4]
+[10, 12, 9]
+[11, 13, 18]
+2.Multiplication
+[60, 56, 3]
+[24, 35, 18]
+[28, 40, 81]
+3.Transpose
+[12, 4, 7]
+[7, 5, 8]
+[3, 6, 9]
+4.Enter a string: my name is kiruba catherine
+catherine
+is
+kiruba
+my
+name
+5.Enter the string: "My email id : Kiruba.Catherine@gmail.com"
+My email id  KirubaCatherinegmailcom
 for i in range(len(X)):
    for j in range(len(X[0])):
        result[i][j] = X[i][j] * Y[i][j]
