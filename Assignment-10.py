@@ -78,3 +78,20 @@ print("10.",l2)
 ### 11. Write a Python program to Count occurrences of an element in a list?
 l=[10,22,13,10,40,5,10].count(10)
 print("11.",l)
+
+
+Solutiom
+
+1.The Sum is 45
+2.The Result is 120
+3.The minimum value is 1
+4.The maximum value is 5
+5.The second largest value is 22
+6.The list has 10,22,13,40,5
+7.The even numbers in a list are
+10 22 40
+8.The odd numbers in a list are
+13 5
+9. [12, 31, [1, 2, -23], [1], [123.23], 2, 321]
+10. [10, 22, 13, 40, 5]
+11. 3
