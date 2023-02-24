@@ -54,3 +54,22 @@ if(regex.search(string) == None):
     print("Given string does not contain special characters")
 else:
     print("Given string contains special characters")
+
+
+Solution:
+       
+1.Enter the length : 6
+['bananana']
+2.Enter the string : Kiruba
+Enter the character to be removed : 2
+String formed by removing i'th character : Kruba
+['3.Write', 'a', 'Python', 'program', 'to', 'split', 'and', 'join', 'a', 'string?']
+3.Write a Python program to split and join a string?
+4.Enter the string : 01010
+Binary
+5.Enter first string : My name is Kiruba
+Enter second string : My name is Kiruba Catherine
+Uncommon words are  {'Catherine'}
+6. {' ', 'n', 'e', 'r', 'a', 'i'}
+7.Enter a string : kiruba@gmail.com
+Given string contains special characters
