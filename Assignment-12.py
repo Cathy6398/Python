@@ -56,3 +56,18 @@ else:
 dict7 = {'k1':2, 'k2':1, 'k3':3, '4':4 ,'6':6, 'key7':7}
 print("7.Sorted Keys",sorted(dict7.keys()))
 print("Sorted Values",sorted(dict7.values()))
+
+
+Solution:
+
+1.Unique values values in dictionary {'hello', 1, 1234}
+2.Sum of all items in a dictionary is 328
+3. {'x': 1, 'l': 2, 'k': 3, 'z': 4, 'y': 11}
+4.Flat dictionary: {1: 'Jan', 2: 'Feb', 3: 'March'}
+5.The updated Dictionary is  OrderedDict([('Jan', '1'), ('Feb', '2'), ('Mar', '3')])
+6.Enter string : Catheriene
+Enter Pattern : ath
+OrderedDict([('C', None), ('a', None), ('t', None), ('h', None), ('e', None), ('r', None), ('i', None), ('n', None)])
+Pattern matched
+7.Sorted Keys ['4', '6', 'k1', 'k2', 'k3', 'key7']
+Sorted Values [1, 2, 3, 4, 6, 7]
