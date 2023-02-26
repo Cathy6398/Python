@@ -47,3 +47,18 @@ for c in k:
 
 print("The number of letters {}".format(letters))
 print("the number of digits {}".format(digits))
+
+
+Solution:
+    
+1.Enter comma separated numbers input: 12,20,30
+[6, 8, 10]
+2.Enter the X value: 2
+[[0, 0, 0], [0, 1, 2]]
+3.Enter comma separated word as input: my,name,is,kiruba,catherine
+catherine,is,kiruba,my,name
+4.Enter the white space seperated words as input: my name is kiruba catherine
+catherine is kiruba my name
+5.Enter the sentence hello world! 123
+The number of letters 10
+the number of digits 3
