@@ -48,7 +48,18 @@ for c in k:
 print("The number of letters {}".format(letters))
 print("the number of digits {}".format(digits))
 
-
+### 6. A website requires the users to input username and password to register. 
+# Write a program to check the validity of password input by users.
+s=input("6.Enter Pasword in comma separated passwords :")
+import re
+l=s.split(",")
+for i in l:
+    if(len(i)>=6 and len(i)<=12):
+        if re.search("([a-z])+", i):
+            if re.search("([A-Z])+", i):
+                if re.search("([0-9])+", i):
+                    if re.search("([#,@,$])+", i):
+                        print(i)
 Solution:
     
 1.Enter comma separated numbers input: 12,20,30
@@ -62,3 +73,6 @@ catherine is kiruba my name
 5.Enter the sentence hello world! 123
 The number of letters 10
 the number of digits 3
+6.Enter Pasword in comma separated passwords :ABd1234@1,a F1#,2w3E*,2We3345, EKd9876@1,a F1#,2w3E*,2We3345
+ABd1234@1
+ EKd9876@1
