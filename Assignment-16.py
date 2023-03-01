@@ -44,3 +44,19 @@ def binary(n):
     return "{0:b}".format(int(n))
 print("5.")
 print(binary(5))
+
+
+
+Solution:
+1.
+in... in... incredible?
+en... en... enthusiastic?
+ou... ou... outstanding?
+2.
+171.88733853899998
+3.
+False
+4.
+10.392304845413264
+5.
+101
