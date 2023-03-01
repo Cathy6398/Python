@@ -61,3 +61,17 @@ print("5.")
 n=int(input("Enter the Value to calculate the area : "))
 Asqr = Square(n)
 print("The Area is ",Asqr.area())
+
+
+Solution:
+    
+1.Enter the N value : 100
+0 , 35 , 70
+2.Enter the N value : 10
+0  2  4  6  8  10
+3.Enter the N value : 5
+0,1,1,2,3,5
+4.Enter the email address : kiruba@gmail.com
+kiruba
+5.Enter the Value to calculate the area : 4
+The Area is  16
