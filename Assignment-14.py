@@ -84,3 +84,34 @@ if result != -1:
     print("Element is present at index " + str(result))
 else:
     print("Not found")
+    
+    
+    
+Solution:
+    
+1.Enter the end range : 50
+0
+7
+14
+21
+28
+35
+42
+49
+2.
+{'New': 1, 'to': 1, 'Python': 5, 'or': 2, 'choosing': 1, 'between': 1, '2': 2, 'and': 1, '3?': 1, 'Read': 1, '3': 1}
+3.Male
+Female
+4.
+I Play Hockey
+I Play Football
+I Love Hockey
+I Love Football
+You Play Hockey
+You Play Football
+You Love Hockey
+You Love Football
+5.Compressed String :  b'x\x9c\xcbH\xcd\xc9\xc9W(\xcf/\xcaIQ\xcc \x82\r\x00\xbd[\x11\xf5'
+Decompress String :  b'hello world!hello world!hello world!hello world!'
+6.
+Element is present at index 7
